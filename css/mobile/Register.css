@@ -1,0 +1,73 @@
+@media (max-width: 800px) {
+
+  .register-container {
+    width: 90%;
+    margin: 40px auto;
+    padding: 25px 20px;
+    box-sizing: border-box;
+  }
+
+  .register-container h2 {
+    text-align: center;
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+
+  .input-group {
+    margin-bottom: 18px;
+  }
+
+  .input-group label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .input-group input,
+  .input-group select {
+    width: 100%;
+    padding: 11px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .input-group input:focus,
+  .input-group select:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  .register-btn {
+    width: 100%;
+    padding: 11px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .register-btn:hover {
+    background-color: #0056b3;
+  }
+
+  .login-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .login-link a {
+    color: #007bff;
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+
+}

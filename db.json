@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "firstName": "kobra",
+      "lastName": "abbasi",
+      "age": "80",
+      "email": "kobra@gmail.com",
+      "password": "2255",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "firstName": "fatemeh",
+      "lastName": "mohammadi",
+      "age": "16",
+      "email": "famohammmadi@gmail.com",
+      "password": "1234",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "firstName": "maryam",
+      "lastName": "ahmadi",
+      "age": "32",
+      "email": "maryamah@gmail.com",
+      "password": "1300",
+      "role": "user",
+      "id": 3
+    }
+  ],
+  "todolist": [
+    {
+      "userid": 2,
+      "title": "go to the gym",
+      "completed": true,
+      "id": 5
+    },
+    {
+      "userid": 2,
+      "title": "read book",
+      "id": 6,
+      "completed": true
+    }
+  ]
+}

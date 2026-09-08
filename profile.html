@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>user panel</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/desktop/profile.css">
+    <link rel="stylesheet" href="./css/mobile/profile.css">
+       <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+   <div class="profile-container">
+    <div class="profile-hedear">
+        <h2>welcom <span id="user-name"></span></h2>
+    </div>
+    <div class="profile-ditailes">
+        <div class="user-info">
+            <p><strong>first Name : </strong><span id="firstname"></span></p>
+            <p><strong>last Name : </strong><span id="lastname"></span></p>
+            <p><strong>Email : </strong><span id="email"></span></p>
+            <p><strong>Age : </strong><span id="Age"></span></p>
+            <p><strong>Gender : </strong><span id="Gender"></span></p>
+        </div>
+        <div class="action-buttons">
+            <button id="Logout-btn" class="Logout-btn">Logout</button>
+            <button id="change-password-btn" class="change-password-btn">change password</button>
+        </div>
+    </div>
+   </div>
+        <div id="change-password-modal" class="modal">
+           <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>change password</h3>
+            <form action="" id="change-password-form">
+                <div class="input-group">
+                    <label for="current-password">current password</label>
+                    <input type="password" id="current-password" placeholder="Enter your current password" required>
+                        <div class="icon">
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-eye-slash hide"></i>
+            </div>
+                </div>
+                <div class="input-group">
+                    <label for="new-password">New password</label>
+                    <input type="password" id="new-password" placeholder="Enter your new password" required>
+                     <div class="icon2">
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-eye-slash hide"></i>
+            </div>
+                </div>
+                <div class="input-group">
+                    <label for="confirm-password">confirm new password</label>
+                    <input type="password" id="confirm-password" placeholder="confirm new password" required>
+                        <div class="icon3">
+              <i class="fa-solid fa-eye"></i>
+              <i class="fa-solid fa-eye-slash hide"></i>
+            </div>
+                </div>
+                <button type="submit" class="change-password-btn">change Password</button>
+            </form>
+           </div>
+        </div>
+          <div class="list">
+        <div class="title">
+        <h1>My To Do List</h1>
+        <input class="input" type="text" placeholder="title">
+        <button class="add">add</button>
+    </div>
+    <ul class ="tasklist">
+    </ul>
+    </div>
+    <script src="./js/profile.js"></script>
+</body>
+</html>

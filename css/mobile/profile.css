@@ -1,0 +1,212 @@
+@media (max-width: 800px) {
+
+  .profile-container {
+    width: 90%;
+    max-height: none;
+    margin: 30px auto;
+    padding: 25px 20px;
+    box-sizing: border-box;
+  }
+
+  .profile-container h2 {
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 25px 0;
+  }
+
+  .Logout-btn,
+  .change-password-btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .Logout-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+    border: none;
+  }
+
+  .Logout-btn:hover {
+    background-color: #e60000;
+  }
+
+  .change-password-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+  }
+
+  .change-password-btn:hover {
+    background-color: #0056b0;
+  }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    overflow: auto;
+    padding-top: 30px;
+    box-sizing: border-box;
+  }
+
+  .modal-content {
+    background-color: #fff;
+    margin: 5% auto;
+    border-radius: 8px;
+    padding: 25px 20px;
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+
+  .close-btn {
+    color: #aaa;
+    font-size: 27px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .close-btn:hover,
+  .close-btn:focus {
+    color: #000;
+  }
+
+  .input-group {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .input-group label {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  .input-group input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+
+  .input-group i {
+    position: absolute;
+    right: 16px;
+    top: 42px;
+    cursor: pointer;
+  }
+
+  .hide {
+    display: none !important;
+  }
+
+
+  /* Todo List */
+
+  .list {
+    margin: 30px auto;
+    width: 90%;
+    box-sizing: border-box;
+  }
+
+  .list .title {
+    padding: 30px 20px 60px;
+    text-align: center;
+  }
+
+  .list h2 {
+    margin-top: 10px;
+    font-size: 22px;
+  }
+
+  .list input {
+    width: 75%;
+    float: left;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 15px;
+    box-sizing: border-box;
+  }
+
+  .list .add {
+    width: 25%;
+    float: left;
+    padding: 8px;
+    font-size: 14px;
+    margin-top: 15px;
+    box-sizing: border-box;
+  }
+
+  .list .tasklist {
+    max-height: 300px;
+    overflow-y: auto;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .list .tasklist li {
+    position: relative;
+    padding: 12px 40px 12px 35px;
+    background-color: #eee;
+    font-size: 16px;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .list .tasklist li:hover {
+    background-color: rgb(205, 204, 205);
+  }
+
+  .list .closebtn {
+    display: none;
+    position: absolute;
+    right: 15px;
+  }
+
+  .list ul li:hover .closebtn {
+    display: inline-block;
+  }
+
+  .list ul li .closebtn i:hover {
+    color: red;
+  }
+
+  .list .tasklist li.done {
+    background-color: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
+
+  .list .tasklist li.done::after {
+    content: '\002714';
+    position: absolute;
+    left: 18px;
+    top: 9px;
+  }
+}
