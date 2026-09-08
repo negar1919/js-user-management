@@ -50,7 +50,4 @@ javascript-auth-user-management/
 ├── css/
 └── js/
 
-##  Purpose
-
-This project was developed as part of my JavaScript learning journey to practice working with authentication, the DOM, API requests, CRUD operations, and user access control.
 
